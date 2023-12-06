@@ -5,17 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sidcup Family Golf</title>
     <link rel="stylesheet" href="./asset/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./asset/css/responsive.css">
 </head>
 <body>
     <div id="nav">
         <img src="https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/logo-white.svg" alt="">
-        <h4>TOPTRACER RANGE</h4>
-        <h4>GOLF LESSONS</h4>
-        <h4>ADVENTURE GOLF</h4>
-        <h4>CAFÉ</h4>
-        <h4>EVENTS</h4>
+        <div class="menu_desk">
+            <a href="#" class="hover-this"><h4>TOPTRACER RANGE</h4></a>
+            <a href="#" class="hover-this"><h4>GOLF LESSONS</h4></a>
+            <a href="#" class="hover-this"><h4>ADVENTURE GOLF</h4></a>
+            <a href="#" class="hover-this"><h4>CAFÉ</h4></a>
+            <a href="#" class="hover-this"><h4>EVENTS</h4></a>
+        </div>
+        <div class="menu-btn">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="menu_mobile no-active">
+            <div class="subnav">
+                <img src="https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/logo-white.svg" alt="">
+                <div class="close-nav-btn">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+
+            <a href="#" class="hover-this"><h4>TOPTRACER RANGE</h4></a>
+            <a href="#" class="hover-this"><h4>GOLF LESSONS</h4></a>
+            <a href="#" class="hover-this"><h4>ADVENTURE GOLF</h4></a>
+            <a href="#" class="hover-this"><h4>CAFÉ</h4></a>
+            <a href="#" class="hover-this"><h4>EVENTS</h4></a>
+        </div>
     </div>
-    <video autoplay loop muted src="https://sidcupfamilygolf.com/wp-content/uploads/2023/08/SFG-Website-Header-Video-0823.mp4"></video>
+    <video autoplay loop muted poster="https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/video-bg.jpg?strip=all&lossy=1&sharp=1&ssl=1" src="https://sidcupfamilygolf.com/wp-content/uploads/2023/08/SFG-Website-Header-Video-0823.mp4"></video>
     <div id="cursor"></div>
     <div id="cursor-blur"></div>
     <div id="main" class="bg">
@@ -40,30 +61,36 @@
                 </div>
             </div>
             <div id="about">
-                <img src="https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/home-about-1-300x200.jpg?strip=all&lossy=1&sharp=1&ssl=1" alt="">
-                <div id="about-in">
-                    <h3>About Us</h3>
-                    <p>Home to a 46-bay, multi-tier, floodlit driving range, powered by Toptracer Range technology. Complimented by a practice green and bunker, coffee shop and American Golf Store. There truly is something for everyone as we also boast two outdoor 18-hole dinosaur themed crazy golf courses.
-                    </p>
-                    <p>Please note: we are a cashless venue. The range closes at 10pm with last balls at 9pm.</p>
+                <div class="row img">
+                    <img class="img1" src="https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/home-about-1-300x200.jpg?strip=all&lossy=1&sharp=1&ssl=1" alt="">
+                    <img class="img2" src="https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/home-about-2.jpg?strip=all&lossy=1&sharp=1&ssl=1" alt="">
                 </div>
-                <img src="https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/home-about-2.jpg?strip=all&lossy=1&sharp=1&ssl=1" alt="">
+
+                <div id="about-in" class="row">
+                    <h3 class="title">About Us</h3>
+                    <p class="content">Home to a 46-bay, multi-tier, floodlit driving range, powered by Toptracer Range technology. Complimented by a practice green and bunker, coffee shop and American Golf Store. There truly is something for everyone as we also boast two outdoor 18-hole dinosaur themed crazy golf courses.
+                    </p>
+                    <p class="content">Please note: we are a cashless venue. The range closes at 10pm with last balls at 9pm.</p>
+                </div>
             </div>
             <div id="card-container">
                 <div class="card" id="card1">
                     <div class="overlay">
+                        <i class="fa-solid fa-arrow-right"></i>
                         <h3>TOPTRACER RANGE</h3>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo eaque facilis, delectus veritatis cum facere culpa, consequatur, corporis a error voluptatum quisquam voluptatem. Quisquam minus qui ea odit natus deleniti.</p>
                     </div>
                 </div>
                 <div class="card" id="card2">
                     <div class="overlay">
+                        <i class="fa-solid fa-arrow-right"></i>
                         <h3>ADVENTURE GOLF</h3>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo eaque facilis, delectus veritatis cum facere culpa, consequatur, corporis a error voluptatum quisquam voluptatem. Quisquam minus qui ea odit natus deleniti.</p>
                     </div>
                 </div>
                 <div class="card" id="card3">
                     <div class="overlay">
+                        <i class="fa-solid fa-arrow-right"></i>
                         <h3>GOLF LESSONS</h3>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo eaque facilis, delectus veritatis cum facere culpa, consequatur, corporis a error voluptatum quisquam voluptatem. Quisquam minus qui ea odit natus deleniti.</p>
                     </div>
@@ -81,7 +108,64 @@
                   src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/dots-side.svg"
                   alt=""
                 />
+            </div>
+            <div id="page5">
+                <div class="img-slider">
+                    <div class="slider active">
+                        <img src="https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/cafe-about-1.jpg?strip=all&lossy=1&sharp=1&ssl=1" alt="">
+                    </div>
+                    <div class="slider no-display">
+                        <img src="https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/cafe-menu.jpg?strip=all&lossy=1&sharp=1&ssl=1" alt="">
+                    </div>
+                    <div class="slider no-display">
+                        <img src="https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/hero-5.jpg?strip=all&lossy=1&sharp=1&ssl=1" alt="">
+                    </div>
+                    <div class="navigation">
+                        <div class="btn active"></div>
+                        <div class="btn no-active"></div>
+                        <div class="btn no-active"></div>
+                    </div>
                 </div>
+                <div id="contentPage5">
+                    <div class="title"><span>FOOD AND DRINK</span></div>
+                    <p class="content">Whether you’re getting ready to play, just finishing your practice session or feeling peckish on the range, we have a variety of food and drink options bought directly to your table or bay.</p>
+                    <p class="content">We make sure that we cater for everyone, offering a range of vegan and gluten free options.</p>
+                </div>
+            </div>
+            <div id="page6">
+                <div class="scrollerFull">
+                    <div class="scroller-img">
+                        <div class="scroller-img-in">
+                            <img src="https://eiwgew27fhz.exactdn.com/wp-content/uploads/sb-instagram-feed-images/368194888_251352427805522_6998893509583014418_nlow.jpg?strip=all&lossy=1&sharp=1&w=1920&ssl=1" alt="">
+                            <img src="https://eiwgew27fhz.exactdn.com/wp-content/uploads/sb-instagram-feed-images/368428166_1337186660536892_7590551552041072954_nlow.jpg?strip=all&lossy=1&sharp=1&w=1920&ssl=1" alt="">
+                            <img src="https://eiwgew27fhz.exactdn.com/wp-content/uploads/sb-instagram-feed-images/367400769_833249714695130_4015145710790161559_nlow.jpg?strip=all&lossy=1&sharp=1&w=1920&ssl=1" alt="">
+                            <img src="https://eiwgew27fhz.exactdn.com/wp-content/uploads/sb-instagram-feed-images/366617442_631871452316419_3502790817763430680_nlow.jpg?strip=all&lossy=1&sharp=1&w=1920&ssl=1" alt="">
+                            <img src="https://eiwgew27fhz.exactdn.com/wp-content/uploads/sb-instagram-feed-images/366416697_3047602078705380_5742543494332331074_nlow.jpg?strip=all&lossy=1&sharp=1&w=1920&ssl=1" alt="">
+                            <img src="https://eiwgew27fhz.exactdn.com/wp-content/uploads/sb-instagram-feed-images/357994661_1107064183598794_1743873129302025362_nlow.jpg?strip=all&lossy=1&sharp=1&w=1920&ssl=1" alt="">
+                            <img src="https://eiwgew27fhz.exactdn.com/wp-content/uploads/sb-instagram-feed-images/404039181_718850036784820_4765651772070395370_nlow.jpg?strip=all&lossy=1&sharp=1&w=1920&ssl=1" alt="">
+                            <img src="https://eiwgew27fhz.exactdn.com/wp-content/uploads/sb-instagram-feed-images/398418469_721465039317636_5282411946362859086_nlow.jpg?strip=all&lossy=1&sharp=1&w=1920&ssl=1" alt="">
+                            <img src="https://eiwgew27fhz.exactdn.com/wp-content/uploads/sb-instagram-feed-images/398120442_301907936024981_8729388087199383804_nlow.jpg?strip=all&lossy=1&sharp=1&w=1920&ssl=1" alt="">
+                            <img src="https://eiwgew27fhz.exactdn.com/wp-content/uploads/sb-instagram-feed-images/394623622_194832340313885_8020440471135078319_nlow.jpg?strip=all&lossy=1&sharp=1&w=1920&ssl=1" alt="">
+                        </div>
+                        <div class="scroller-img-in">
+                            <img src="https://eiwgew27fhz.exactdn.com/wp-content/uploads/sb-instagram-feed-images/368194888_251352427805522_6998893509583014418_nlow.jpg?strip=all&lossy=1&sharp=1&w=1920&ssl=1" alt="">
+                            <img src="https://eiwgew27fhz.exactdn.com/wp-content/uploads/sb-instagram-feed-images/368428166_1337186660536892_7590551552041072954_nlow.jpg?strip=all&lossy=1&sharp=1&w=1920&ssl=1" alt="">
+                            <img src="https://eiwgew27fhz.exactdn.com/wp-content/uploads/sb-instagram-feed-images/367400769_833249714695130_4015145710790161559_nlow.jpg?strip=all&lossy=1&sharp=1&w=1920&ssl=1" alt="">
+                            <img src="https://eiwgew27fhz.exactdn.com/wp-content/uploads/sb-instagram-feed-images/366617442_631871452316419_3502790817763430680_nlow.jpg?strip=all&lossy=1&sharp=1&w=1920&ssl=1" alt="">
+                            <img src="https://eiwgew27fhz.exactdn.com/wp-content/uploads/sb-instagram-feed-images/366416697_3047602078705380_5742543494332331074_nlow.jpg?strip=all&lossy=1&sharp=1&w=1920&ssl=1" alt="">
+                            <img src="https://eiwgew27fhz.exactdn.com/wp-content/uploads/sb-instagram-feed-images/357994661_1107064183598794_1743873129302025362_nlow.jpg?strip=all&lossy=1&sharp=1&w=1920&ssl=1" alt="">
+                            <img src="https://eiwgew27fhz.exactdn.com/wp-content/uploads/sb-instagram-feed-images/404039181_718850036784820_4765651772070395370_nlow.jpg?strip=all&lossy=1&sharp=1&w=1920&ssl=1" alt="">
+                            <img src="https://eiwgew27fhz.exactdn.com/wp-content/uploads/sb-instagram-feed-images/398418469_721465039317636_5282411946362859086_nlow.jpg?strip=all&lossy=1&sharp=1&w=1920&ssl=1" alt="">
+                            <img src="https://eiwgew27fhz.exactdn.com/wp-content/uploads/sb-instagram-feed-images/398120442_301907936024981_8729388087199383804_nlow.jpg?strip=all&lossy=1&sharp=1&w=1920&ssl=1" alt="">
+                            <img src="https://eiwgew27fhz.exactdn.com/wp-content/uploads/sb-instagram-feed-images/394623622_194832340313885_8020440471135078319_nlow.jpg?strip=all&lossy=1&sharp=1&w=1920&ssl=1" alt="">
+                        </div>
+                    </div>
+                    <div class="scroller-img-title">
+                        <i id="fa-brands fa-instagram"></i>
+                        <a href="https://www.instagram.com/sfg_uk/"><span>Follow us on instagram</span></a>
+                    </div>
+                </div>
+            </div>
             <div id="page3">
                 <p>
                 Excellent couple of hours, relax and enjoy in the fun. Staff were
@@ -103,13 +187,13 @@
                 />
                 </div>
                 <div class="elem">
-                <h2>TOPTRACER RANGE</h2>
+                <h2>GOLF LESSONS</h2>
                 <img src="https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/page-lessons-1024x683.jpg?strip=all&lossy=1&sharp=1&ssl=1"
                     alt=""
                 />
                 </div>
                 <div class="elem">
-                <h2>TOPTRACER RANGE</h2>
+                <h2>ADVENTURE GOLF</h2>
                 <img src="https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/page-ag-1024x682.jpg?strip=all&lossy=1&sharp=1&ssl=1"
                     alt=""
                 />
@@ -144,6 +228,7 @@
                     GET DIRECTIONS <br />
                   </h4>
                 </div>
+                <div class="clear"></div>
             </div>
         </div>
     </div>
